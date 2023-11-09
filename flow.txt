@@ -1,0 +1,27 @@
+check e remove ptm{ e }
+
+check lunghezza % 16 == 0
+check lunghezza // 16 % 2 == 0
+
+Per ogni blocco di 16 -> shuffle
+
+Per ogni coppia di blocchi di 16 -> mult a bytes su word -> risultato x blocchi di 16
+
+check no conflicts
+
+Check 3 blocchi risultanti
+
+ternary logic sui 3 blocchi con map1 = 106
+ternary logic sui 3 blocchi con map2 = 142
+ternary logic sui 3 blocchi con map3 = 39
+
+3 blocchi da 16
+
+Per ogni blocco, galois field affine transformation con A e b da definire
+
+xor con cose per aggiustare
+
+base64decode succesfully each block
+
+compare result
+
