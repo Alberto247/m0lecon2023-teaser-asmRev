@@ -7,7 +7,7 @@ Per ogni blocco di 16 -> shuffle
 
 Per ogni coppia di blocchi di 16 -> mult a bytes su word -> risultato x blocchi di 16
 
-check no conflicts
+#check no conflicts
 
 Check 3 blocchi risultanti
 
